@@ -218,7 +218,8 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap:40px;
     margin-top: 50px;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
+    
 }
 
 
@@ -459,8 +460,17 @@ nav .fas{
 
     }
    .fas.fa-bars{
-     padding-left: 50%;
-     float: top;
+     padding-left: 10%;
+     display: block;
+     position: absolute;
+     right: 0;
+     top: 0;
+     left: 44%;
+     padding-top: 4%;
+     
+    .logo-font{
+        padding-top: 10px;
+    } 
     
    }
     .header-text{
@@ -472,6 +482,13 @@ nav .fas{
         font-size: 30px;
     }
 
+
+    nav{
+        padding-top: 10px;
+        /* position: absolute;  */
+        /* padding-top: 2px; */
+        
+    }
     nav .fas{
         display: block;
     }
@@ -516,6 +533,25 @@ nav .fas{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
+    /* .services-list{
+        margin: 0px;
+    }
+     */
+    .services-list div{
+        padding: 40px;
+       
+    
+    }
+    .services-list{
+        padding: 0 1px 0 1px ;
+    }
+
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+    }
 }
 
 #msg{
@@ -523,3 +559,4 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+
