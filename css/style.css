@@ -461,11 +461,12 @@ nav .fas{
     }
    .fas.fa-bars{
      padding-left: 10%;
-     display: block;
+     /* display: flex;
+     justify-content: flex-start; */
      position: absolute;
      right: 0;
      top: 0;
-     left: 13%;
+     left: 39%;
      padding-top: 4%;
      
     /* .logo-font{
