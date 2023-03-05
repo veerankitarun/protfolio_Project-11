@@ -135,6 +135,11 @@ nav ul li a:hover::after{
 
 }
 
+ .link-yt {
+    text-decoration: none;
+    color: #ff004f;
+   }
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -474,6 +479,8 @@ nav .fas{
     }  */
     
    }
+
+   
     .header-text{
         margin-top: 100%;
         font-size: 16px;
